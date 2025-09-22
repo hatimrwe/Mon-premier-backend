@@ -1,0 +1,6 @@
+cd chemin/vers/ton/dossier   # aller dans ton projet
+git init                      # initialiser git (si pas déjà fait)
+git remote add origin git@github.com:hatimrwe/nom-du-repo.git   # lier GitHub
+git add .                     # ajouter tous les fichiers
+git commit -m "Ajout docs"    # créer un commit
+git push -u origin main       # envoyer sur GitHub
